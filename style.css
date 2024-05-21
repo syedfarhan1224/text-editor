@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, #6a11cb, #2575fc);  /* Gradient background with modern colors */
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-section {
+    width: 700px;
+    background: #ffffff;  /* Keeping a clean white background for the main section */
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 24px;
+    color: #444444;  /* Dark grey for the header text */
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+}
+
+.col {
+    background-color: #f9f9f9;  /* Light grey background for the columns */
+    border-radius: 5px;
+}
+
+.toolbar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+}
+
+input[type=number], input[type=color] {
+    outline: none;
+    border: 1px solid #cccccc;  /* Light grey border for inputs */
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 10px;
+    background-color: #ffffff;  /* White background for inputs */
+}
+
+input[type=number] {
+    width: 60px;
+}
+
+button {
+    border: none;
+    color: #ffffff;
+    background-color: #ff8c00;  /* Bright orange color for buttons */
+    font-size: 18px;
+    padding: 8px 12px;
+    margin-right: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    user-select: none;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #e57c00;  /* Darker orange for hover state */
+}
+
+button.active {
+    background-color: #e57c00;  /* Darker orange for active state */
+}
+
+textarea {
+    width: 100%;
+    height: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;  /* Light grey border for textarea */
+    outline: none;
+    resize: vertical;
+    font-size: 16px;
+    color: #333333;  /* Dark grey text color for textarea */
+    background-color: #ffffff;  /* White background for textarea */
+}
